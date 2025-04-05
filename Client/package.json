@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "author": "Devender Singh",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@azure/web-pubsub-socket.io": "^1.2.0",
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.2",
+    "socket.io": "^4.8.1"
+  }
+}
